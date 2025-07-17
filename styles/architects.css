@@ -90,7 +90,6 @@ main{
     align-items: center;
     margin: 85px auto 130px auto;
     gap: 73px;
-
     justify-content: center;   
 }
 .team-img-container{
@@ -115,7 +114,7 @@ main{
     color: rgba(255, 144, 14, 1);
 }
 
-.features-descripton{
+.features-description{
     max-width: 530px;
     max-height: 78px;
     font-size: 1rem ;
@@ -125,10 +124,12 @@ main{
 
 /* Features you will love & enjoy section */
 .features{
+    /* display: flex; */
     max-width: 1440px;
     max-height: 1059px;
-    margin: 0 auto;
+    margin: 0 auto 10px 30px;
     gap: 140px;
+    padding-bottom: 20px;
 }
 .feature-text-part{
     max-width: 585px;
@@ -136,7 +137,9 @@ main{
 }
 .card{
     border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-top: 35px;
     padding-left: 20px;
+
 }
 .feature-card{
     padding: 30px 42px 30px 30px;
@@ -170,6 +173,73 @@ main{
     font-size: 4rem;
     font-weight: 700;
 }
+
+/* some facts related styles */
+.fact-section{
+    margin-top: 100px;
+}
+.fact-card{
+    border: 1px solid rgba(255, 144, 14, 1);
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.fact-description{
+    max-width: 540px;
+}
+
+/* sponsor related section */
+.Our-Sponspors{
+    margin-top: 180px;
+}
+.sponsor-info{
+    max-width: 540px;
+    margin: 180px auto 50px auto;
+    text-align: center;
+}
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponsor-companies img{
+    filter: grayscale(100%);
+}
+
+/* footer sections css */
+.footer{
+    display: flex;
+    background-color: rgba(255, 244, 231, 1);
+    max-width: 1440px;
+    max-height: 100px;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+    margin: 130px auto 200px auto;
+    padding: 38px 410px;
+}
+.footer-copyright{
+    max-width: 670px;
+    font-size: 21px;
+    font-weight: 500;
+}
 /* responsive media query for small device */
 @media screen and (max-width: 576px) {
     .navbar,.nav-links,
@@ -184,6 +254,11 @@ main{
         margin-left: 20px;
     }
 }
+/* .team-img-container{
+        grid-template-columns: 1fr;   er pashe .facts-container 
+        alada kore      ..facts-container{ justify items center & gap 24px*/
+
+
 /* responsive media query for medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .teams, .features{
