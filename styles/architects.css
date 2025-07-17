@@ -11,6 +11,10 @@
 .display-flex{
     display: flex;
 }
+/* dark-1 */
+.Dark-1{
+    color: #131313;
+}
 /* dark-2 */
 .text-gray{
     color: #424242;
@@ -83,7 +87,7 @@ main{
 
 .teams{
     align-items: center;
-    margin: 85px auto 0 auto;
+    margin: 85px auto 130px auto;
     gap: 73px;
 
     justify-content: center;   
@@ -117,6 +121,46 @@ main{
     font-weight: 400 ;
     margin-bottom: 32px;
 }
+
+/* Features you will love & enjoy section */
+.features{
+    max-width: 1440px;
+    max-height: 1059px;
+    margin: 0 auto;
+    gap: 140px;
+}
+.feature-text-part{
+    max-width: 585px;
+    max-height: 980px;
+}
+.section-title{
+    font-size: 2.81rem;
+    font-weight: bold;
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-left: 20px;
+}
+.feature-card{
+    padding: 30px 42px 30px 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin: 30px 0 20px 0;
+    border-radius: 8px;
+
+}
+.feature-card .feature-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.feature-img-part{
+    max-width: 800px;
+    max-height: 1059px;
+}
+.feature-img-part{
+    max-width: 708px;
+    max-height: 992px ;
+}
+
 /* responsive media query for small device */
 @media screen and (max-width: 576px) {
     .navbar,.nav-links,
